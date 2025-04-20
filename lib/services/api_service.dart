@@ -23,8 +23,8 @@ class ApiService {
       Uri.parse('$baseUrl/sessions'),
       headers: _headers,
       body: jsonEncode({
-        'login': gutis,
-        'password': 123123,
+        'login': login,
+        'password': password,
       }),
     );
 
